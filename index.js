@@ -3,6 +3,7 @@ function logDriverNames(driver) {
   for (const el of driver){
   console.log(el.name)}
 }
+<<<<<<< HEAD
 function logDriversByHometown(drivers, location){
   drivers.forEach(function (driver){
     if (driver.hometown === location){
@@ -31,3 +32,5 @@ return drivers.reduce(function(total,el){
 const averageRevenue = function(drivers){
 return   totalRevenue(drivers) /drivers.length
 }
+=======
+>>>>>>> 6fafb3a84e1e6d676ddee65140f467990da38a7e
